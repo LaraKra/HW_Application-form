@@ -1,0 +1,38 @@
+body {
+    background-color: #E11299;
+}
+.form {
+    background-color: #FFEAEA;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding: 120px;
+    border: 5px solid #9A208C;
+    border-radius: 100px;
+}
+.container {
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 150px;
+    color: #9A208C;
+}
+.btn {
+    background-color: #F5C6EC;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+} 
+.btn:hover {
+    background-color: #9A208C;
+    transition-duration: 3s;
+}
+
+.space {
+    border: 2px solid #9A208C;
+    padding: 7px;
+}

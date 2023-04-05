@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Application form for a beauty salon</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <form class="form">
+         <h1>❀ Анкета клиента ❀</h1>
+         <div class="container">
+            <label>Ф.И.О.</label>
+            <input type="text" placeholder="Фамилия Имя Отчество"class="space"> 
+         </div>
+         <div class="container">
+            <label>Дата рождения</label>
+            <input type="text" placeholder="Число Месяц Год"class="space"> 
+         </div>
+         <div class="container">
+            <label>Email</label>
+            <input type="email" placeholder="Email"class="space">
+         </div>
+         <div class="container">
+            <label>Как часто посещаете салоны красоты</label>
+            <select>
+               <option>Раз в 6 месяцев</option>
+               <option>Раз в 3 месяця</option>
+               <option>Раз в 1 месяц</option>
+            </select>
+         </div>
+         <div class="container">
+            <label>Какими услугами Вы обычно пользуетесь</label>
+            <select>
+               <option>Стрижка</option>
+               <option>Окрашивание</option>
+               <option>Маникюр</option>
+               <option>Педикюр</option>
+               <option>Массаж</option>
+               <option>Солярий</option>
+            </select>
+         </div>
+         <div class="container">
+            <label>Какое время дня Вам удобнее для посещения</label>
+            <input type="radio" name="level">
+            <label>Утро</label>
+            <input type="radio" name="level">
+            <label>День</label>
+            <input type="radio" name="level">
+            <label>Вечер</label>
+         </div>
+         <div class="container">
+            <input type="checkbox">
+            <label>Ставя здесь галочку, вы автоматичнски попадаете в нашу рассылку</label>
+         </div>
+         <div class="container">
+            <button class="btn">Отправить</button>
+         <p><a href="tel:88123454545">📲Позвонить и записаться</a> </p>
+         </div>
+      </form>
+</html>
